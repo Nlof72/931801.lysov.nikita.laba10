@@ -10,10 +10,10 @@ let pre = true
 change = () => {
     if (pre) {
         golub.bottom = '30vh';
-        krol.bottom = '20vh';
+        krol.bottom = '15vh';
         pre = false;
     } else {
-        golub.bottom = '20vh';
+        golub.bottom = '15vh';
         krol.bottom = '30vh';
         pre = true;
     }
@@ -80,7 +80,7 @@ easterEgg.onclick = () => {
 
     easterEgg.style.transform = 'scale(1,1)';
     easterEgg.addEventListener('dblclick', () => {
-      document.querySelector('.easter').style.display = 'block';
+        document.querySelector('.easter').style.display = 'block';
     })
 }
 

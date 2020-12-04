@@ -85,18 +85,18 @@ main {
 #golub {
     position: fixed;
     z-index: 1;
-    bottom: 20vh;
-    right: calc(50% - 11vh);
-    width: 4.8vh;
+    bottom: 15vh;
+    right: calc(50% - 14vh);
+    width: 10vh;
     transition: bottom 0.1s ease-out;
 }
 
 #krol {
     position: fixed;
     z-index: 1;
-    bottom: 20vh;
-    right: calc(50% - 11vh);
-    width: 4.8vh;
+    bottom: 15vh;
+    right: calc(50% - 13vh);
+    width: 10vh;
     transition: bottom 0.1s ease-out;
 }
 

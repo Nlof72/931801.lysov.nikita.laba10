@@ -145,6 +145,7 @@ main {
 }
 
 .easter {
+    font-size: 3vh;
     font-family: Bradley Hand, cursive;
     position: fixed;
     width: 40vh;
@@ -153,10 +154,10 @@ main {
     right: 30vh;
     text-align: center;
     box-sizing: border-box;
-    padding: 20px;
+    padding: 6vh;
     background: #92E375;
-    border-radius: 27px;
-    border: #004200 solid 9px;
+    border-radius: 5vh;
+    border: #004200 solid 1vh;
     z-index: 32;
     display: none;
 }
@@ -167,7 +168,7 @@ main {
     right: 29vh;
     position: fixed;
     border-style: solid;
-    border-width: 20px 0 20px 37px;
+    border-width: 3vh 0 3vh 6vh;
     border-color: transparent #92E375;
     display: block;
     transform: rotate(45deg);
@@ -181,7 +182,7 @@ main {
     bottom: 12.3vh;
     right: 28vh;
     border-style: solid;
-    border-width: 22px 0 22px 37px;
+    border-width: 3vh 0 3vh 5vh;
     border-color: transparent #004200;
     display: block;
     transform: rotate(45deg);

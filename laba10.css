@@ -1,0 +1,191 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    z-index: 10;
+}
+
+#pereClue {
+    position: fixed;
+    top: 10vh;
+    margin: auto;
+    width: 1.2vh;
+    left: 0;
+    right: 6vh;
+    display: none;
+    overflow: hidden;
+    transition: top 0.1s ease-out;
+    z-index: 5;
+}
+
+#blueTrap {
+    position: fixed;
+    top: 5vh;
+    margin: auto;
+    width: 11vh;
+    left: 0;
+    right: 0;
+    display: none;
+    overflow: hidden;
+    z-index: 10;
+}
+
+#trapezoid {
+    position: fixed;
+    top: 10.8vh;
+    display: block;
+    margin: auto;
+    left: 0;
+    right: 0;
+    border-bottom: 80vh solid yellow;
+    border-left: 30vh solid transparent;
+    border-right: 30vh solid transparent;
+    opacity: 0;
+    height: 0;
+    width: 10vh;
+    z-index: 9;
+    transition: opacity 0.2s linear;
+}
+
+#magic {
+    position: fixed;
+    bottom: 10vh;
+    left: calc(50% - 30vh);
+    width: 35vh;
+}
+
+.pocus {
+    display: none;
+}
+
+#clac {
+    position: fixed;
+    display: none;
+    width: 12.3vh;
+    height: 12.5vh;
+    bottom: 15.2vh;
+    right: calc(50% - 14.7vh);
+    z-index: 20;
+}
+
+#sasha {
+    position: absolute;
+    bottom: 14vh;
+    right: calc(50% - 16vh);
+    width: 15vh;
+    z-index: 2;
+}
+
+#golub {
+    position: fixed;
+    z-index: 1;
+    bottom: 20vh;
+    right: calc(50% - 11vh);
+    width: 4.8vh;
+    transition: bottom 0.1s ease-out;
+}
+
+#krol {
+    position: fixed;
+    z-index: 1;
+    bottom: 20vh;
+    right: calc(50% - 11vh);
+    width: 4.8vh;
+    transition: bottom 0.1s ease-out;
+}
+
+#scena {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 31;
+    width: calc(50% - 43.6vw);
+    height: 100vh;
+}
+
+#scena1 {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 31;
+    width: calc(50% - 43.6vw);
+    height: 100vh;
+}
+
+#main {
+    position: relative;
+    top: 0;
+    height: inherit;
+    background: url("images/1.jpg") no-repeat;
+    background-size: auto 100%;
+    background-position: center center;
+    z-index: 30;
+    transition: top 0.2s cubic-bezier(0, 0, 1, 1);
+}
+
+#main:hover {
+    top: -5%;
+}
+
+#easterEgg {
+    position: fixed;
+    display: none;
+    bottom: 0vh;
+    right: -18vh;
+    width: 60vh;
+    transform: scale(-1, 1);
+    z-index: 32;
+    background-color: blue;
+}
+
+.easter {
+    font-family: Bradley Hand, cursive;
+    position: fixed;
+    width: 300px;
+    height: 90px;
+    bottom: 15vh;
+    right: 30vh;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 20px;
+    background: #92E375;
+    border-radius: 27px;
+    border: #004200 solid 9px;
+    z-index: 32;
+    display: none;
+}
+
+.easter:after {
+    content: '';
+    bottom: 14vh;
+    right: 29vh;
+    position: fixed;
+    border-style: solid;
+    border-width: 20px 0 20px 37px;
+    border-color: transparent #92E375;
+    display: block;
+    transform: rotate(45deg);
+    width: 0;
+    z-index: 33;
+}
+
+.easter:before {
+    content: '';
+    position: fixed;
+    bottom: 12.3vh;
+    right: 28vh;
+    border-style: solid;
+    border-width: 22px 0 22px 37px;
+    border-color: transparent #004200;
+    display: block;
+    transform: rotate(45deg);
+    width: 0;
+    z-index: 31;
+}
